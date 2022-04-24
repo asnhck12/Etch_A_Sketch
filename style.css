@@ -1,0 +1,33 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+#container {
+    outline: 2px solid black;
+    height: 960px;
+    width: 960px;
+    float: inline-start;
+    
+}
+
+.grid  {
+    outline: 1px solid black;
+    width: 60px;
+    height: 60px;
+    float: right;
+}
+
+
+.colouredGrid {
+    background-color: black;
+}
+
+#resetButton {
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    text-size-adjust: 20px;
+}
+
