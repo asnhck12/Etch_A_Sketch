@@ -1,4 +1,4 @@
-#Etch-a-Sketch
+# Etch-a-Sketch
 
 A Basic Etch-A-Sketch project using HTML and JS.
 
