@@ -30,7 +30,7 @@ function reset() {
         div1.classList.remove("colouredGrid");
     });
     container.innerHTML = "";
-    size = prompt("What size?");
+    size = prompt("Grid Size:");
     if (size > 64) {size= 64};
     makeGrid();
 };
