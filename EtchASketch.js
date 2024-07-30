@@ -13,8 +13,8 @@ function makeGrid() {
     for (let rows = 0;rows < size*size; rows++) {
         const div = document.createElement('div');
         div.classList.add('grid');
-        div.style.width = (960/size + "px");
-        div.style.height = (960/size + "px");
+        div.style.width = (Math.floor((960/size)*100) / 100 + "px");
+        div.style.height = (Math.floor((960/size)*100) / 100 + "px");
         container.append(div);
         
     };
